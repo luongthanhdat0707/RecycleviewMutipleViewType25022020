@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"
+        android:id="@+id/imagesoccer"
+        android:layout_width="120dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/textviewname"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imagesoccer"
+        android:text="Tên cầu thủ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textmota"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#D3971E"
+        android:textSize="10sp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_toLeftOf="@+id/textgia"
+        android:layout_toRightOf="@+id/imagesoccer"
+        android:layout_below="@+id/textviewname"
+        android:text="Là một cầu thủ bóng đá người Bỉ hiện đang chơi ở vị trí tiền đạo cho câu lạc bộ Real Madrid tại La Liga cũng như thi đấu cho đội tuyển Bỉ ở các giải đấu cấp độ đội tuyển. Anh là đội trưởng đội tuyển Bỉ. Vị trí thi đấu của anh thường là tiền đạo cánh trái.Anh là một trong những cầu thủ xuất sắc nhất thế giới hiện tại"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/textgia"
+        android:textStyle="bold"
+        android:textColor="#CC1B0E"
+        android:textSize="15sp"
+        android:maxLines="3"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textviewname"
+        android:text="$10000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
